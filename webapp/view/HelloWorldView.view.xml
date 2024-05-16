@@ -1,0 +1,7 @@
+<mvc:View controllerName="hr.axians.helloworld.helloworld.controller.HelloWorldView"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Text id="text" text="Hello World! This is a test!" />
+    </Page>
+</mvc:View>
