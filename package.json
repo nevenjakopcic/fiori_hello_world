@@ -10,8 +10,8 @@
   ],
   "main": "webapp/index.html",
   "engines": {
-    "npm": ">=10.2.5 <11.0.0",
-    "node": ">=20.10.0 <21.0.0"
+    "npm": ">=10.1.0 <11.0.0",
+    "node": ">=20.9.0 <21.0.0"
   },
   "dependencies": {},
   "devDependencies": {
