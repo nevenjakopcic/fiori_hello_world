@@ -13,10 +13,12 @@
     "npm": ">=10.1.0 <11.0.0",
     "node": ">=20.9.0 <21.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@sap/ux-ui5-tooling": "^1.13.4"
+  },
   "devDependencies": {
     "@ui5/cli": "^3.0.0",
-    "@sap/ux-ui5-tooling": "1"
+    "@sap/ux-ui5-tooling": "^1.13.4"
   },
   "scripts": {
     "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#hraxianshelloworldhelloworld-display\"",
