@@ -21,6 +21,8 @@
     "@sap/ux-ui5-tooling": "^1.13.4"
   },
   "scripts": {
+    "install-fiori": "if ! command -v fiori &> /dev/null; then npm install -g @sap/ux-ui5-tooling; fi",
+    "prestart": "npm run install-fiori",
     "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#hraxianshelloworldhelloworld-display\"",
     "start-local": "fiori run --config ./ui5-local.yaml --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#hraxianshelloworldhelloworld-display\"",
     "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist",
